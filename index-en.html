@@ -67,7 +67,9 @@ body::after{
 .badge svg{width:16px;height:16px;stroke:var(--gold);fill:none;stroke-width:1.7}
 .dl-btn{display:inline-flex;align-items:center;gap:12px;font-family:'Cinzel',serif;font-weight:600;font-size:1rem;color:#1a1206;background:linear-gradient(180deg,#eec463,#d3a03c);padding:14px 26px;border-radius:12px;border:1px solid rgba(255,255,255,.18);box-shadow:0 12px 34px -12px rgba(227,181,82,.65);transition:transform .2s,box-shadow .2s;cursor:pointer}
 .dl-btn:hover{transform:translateY(-2px);box-shadow:0 18px 44px -12px rgba(227,181,82,.8)}
-.dl-btn .v{font-family:'Outfit',sans-serif;font-weight:300;font-size:.82rem;color:#4a3510;padding-left:10px;border-left:1px solid rgba(58,42,8,.3)}
+.dl-btn .v{font-family:'Outfit',sans-serif;font-weight:300;color:#4a3510;padding-left:10px;border-left:1px solid rgba(58,42,8,.3);display:inline-flex;flex-direction:column;line-height:1.2;text-align:left}
+.dl-btn .v .vn{font-size:.82rem}
+.dl-btn .v .vd{font-size:.7rem;opacity:.75}
 .dl-note{margin-top:12px;font-size:.82rem;color:var(--muted)}
 .heroshot{position:relative;border-radius:16px;overflow:hidden;border:1px solid var(--line);
   box-shadow:0 40px 120px -40px rgba(0,0,0,.9),0 0 0 1px rgba(227,181,82,.06),inset 0 0 60px rgba(0,0,0,.4)}
@@ -194,7 +196,7 @@ footer .meta .g{color:var(--gold)}
       <span class="badge"><svg viewBox="0 0 24 24"><path d="M4 12a8 8 0 1 0 16 0 8 8 0 0 0-16 0zM12 8v4l3 2"/></svg> Answers in seconds</span>
       <span class="badge"><svg viewBox="0 0 24 24"><path d="M3 12h18M12 3v18"/></svg> Free with Gemini</span>
     </div>
-    <a class="dl-btn" href="https://github.com/Moisschen/gw2-assistant-site/releases/latest/download/GW2Assistant.bhm">⬇ Download the module <span class="v">.bhm · v0.9.337</span></a>
+    <a class="dl-btn" href="https://github.com/Moisschen/gw2-assistant-site/releases/latest/download/GW2Assistant.bhm">⬇ Download the module <span class="v"><span class="vn">.bhm · v0.9.337</span><span class="vd">26 Jul 2026</span></span></a>
     <div class="dl-note">Requires <a href="https://blishhud.com" style="color:var(--frost)">Blish HUD</a> · 4-step setup below.</div>
   </div>
   <div class="heroshot reveal">
