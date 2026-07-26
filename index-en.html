@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>GW2 Assistant — your AI companion for Guild Wars 2</title>
-<meta name="description" content="Blish HUD module for Guild Wars 2: ask by voice or text, answers from the wiki, event & world boss timers, navigation, builds and account knowledge — right in the overlay.">
+<title>GW2 Assistant · overlay companion for Guild Wars 2</title>
+<meta name="description" content="Blish HUD module for Guild Wars 2: event & world-boss timers, navigation & routes, build manager, marker packs and account info in one overlay. With an optional question feature.">
 <link rel="icon" href="img/logo.png" type="image/png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -187,61 +187,48 @@ footer .meta .g{color:var(--gold)}
 
 <header class="hero"><div class="wrap">
   <div class="reveal">
-    <span class="kicker"><span class="dot"></span> Blish HUD module · AI-powered</span>
-    <h1>Your <span class="g">AI companion</span><br>right there in Tyria.</h1>
-    <p class="lead">Hold a key, ask your question, let go — the answer appears in the overlay and is read aloud. No alt-tab, no wiki-digging.</p>
-    <p class="sub">What began as a voice assistant is now a full companion: knowledge, event timers, navigation, builds and account analysis — all in one module.</p>
+    <span class="kicker"><span class="dot"></span> Blish HUD module · Guild Wars 2</span>
+    <h1>Your <span class="g">companion</span><br>in Tyria.</h1>
+    <p class="lead">Event timers, navigation, routes, builds and marker packs in a single Blish overlay. Plus an optional question feature for when you just want to look something up.</p>
+    <p class="sub">One module instead of many: timers, map, builds, markers and account info, right in the game.</p>
     <div class="badges">
       <span class="badge"><svg viewBox="0 0 24 24"><path d="M12 3v18M5 8l7-5 7 5"/></svg> Runs in Blish HUD</span>
-      <span class="badge"><svg viewBox="0 0 24 24"><path d="M4 12a8 8 0 1 0 16 0 8 8 0 0 0-16 0zM12 8v4l3 2"/></svg> Answers in seconds</span>
-      <span class="badge"><svg viewBox="0 0 24 24"><path d="M3 12h18M12 3v18"/></svg> Free with Gemini</span>
+      <span class="badge"><svg viewBox="0 0 24 24"><path d="M4 12a8 8 0 1 0 16 0 8 8 0 0 0-16 0zM12 8v4l3 2"/></svg> Many tools in one</span>
+      <span class="badge"><svg viewBox="0 0 24 24"><path d="M3 12h18M12 3v18"/></svg> Completely free</span>
     </div>
     <a class="dl-btn" href="https://github.com/Moisschen/gw2-assistant-site/releases/latest/download/GW2Assistant.bhm">⬇ Download the module <span class="v"><span class="vn">.bhm · v0.9.337</span><span class="vd">26 Jul 2026</span></span></a>
     <div class="dl-note">Requires <a href="https://blishhud.com" style="color:var(--frost)">Blish HUD</a> · 4-step setup below. · <a href="changelog-en.html" style="color:var(--gold)">View changelog</a></div>
   </div>
   <div class="heroshot reveal">
-    <span class="hero-cap">“When does Tequatl start?” — answered in-game and read aloud.</span>
-    <img src="img/shot-hero.jpg" alt="GW2 Assistant answering a question in-game">
+    <span class="hero-cap">Event timers, navigation, builds and more, right in the overlay.</span>
+    <img src="img/shot-events.jpg" alt="GW2 Assistant event overview in-game">
   </div>
 </div></header>
 
 <section id="features"><div class="wrap">
   <div class="reveal">
-    <div class="eyebrow">What the assistant does</div>
+    <div class="eyebrow">What the module does</div>
     <h2 class="sec-title">One module for everything you usually alt-tab for</h2>
-    <p class="sec-intro">Ask in plain language — the assistant researches live in the GW2 wiki, the official API and on MetaBattle, and answers you directly.</p>
+    <p class="sec-intro">Timers, navigation, builds, marker packs and account info in one overlay. Most of it runs locally or via the official GW2 API. Plus an optional question feature.</p>
   </div>
 
   <div class="feature reveal">
     <div class="txt">
-      <h3><span class="ic"><svg viewBox="0 0 24 24"><path d="M12 3a4 4 0 0 0-4 4v4a4 4 0 0 0 8 0V7a4 4 0 0 0-4-4zM6 11a6 6 0 0 0 12 0M12 17v4"/></svg></span>Ask by voice or text</h3>
-      <p>“Where do I find Miyani?”, “What do I need for a Gift of Fortune?”, “What's my most valuable item?” — hold the push-to-talk key, speak, and read the answer in the overlay. Or type quietly into the text box.</p>
+      <h3><span class="ic"><svg viewBox="0 0 24 24"><path d="M12 6v6l4 2M4 12a8 8 0 1 0 16 0 8 8 0 0 0-16 0z"/></svg></span>Event &amp; world-boss timers</h3>
+      <p>A large management window shows what's <em>running now</em> and what's <em>coming up</em>, with countdown, location and a reminder bell per row. The detail panel sums up objectives, rewards and how the event plays out.</p>
       <ul>
-        <li>Live research across the wiki, the GW2 API and MetaBattle</li>
-        <li>Answers read aloud with a natural voice, if you like</li>
-        <li>Build codes land straight in your clipboard</li>
+        <li>Meta events and world bosses in one window, sorted live</li>
+        <li>A reminder bell per event, kept in sync everywhere</li>
+        <li>Detail view with objectives, rewards and walkthrough</li>
       </ul>
     </div>
-    <div class="fig"><span class="tag">Live</span><img src="img/shot-hero.jpg" alt="Question-and-answer window"></div>
+    <div class="fig"><span class="tag">Timers</span><img src="img/shot-events.jpg" alt="Event manager with detail view"></div>
   </div>
 
   <div class="feature flip reveal">
     <div class="txt">
-      <h3><span class="ic"><svg viewBox="0 0 24 24"><path d="M12 6v6l4 2M4 12a8 8 0 1 0 16 0 8 8 0 0 0-16 0z"/></svg></span>Event &amp; world-boss timers, wiki 1:1</h3>
-      <p>A large management window shows what's <em>running now</em> and what's <em>coming up</em> — with countdown, location and a reminder bell per row. The detail panel mirrors the full event wiki page: objectives, rewards and walkthrough.</p>
-      <ul>
-        <li>Meta events and world bosses in one window, sorted live</li>
-        <li>A reminder bell per event, kept in sync everywhere</li>
-        <li>1:1 wiki view with clickable links</li>
-      </ul>
-    </div>
-    <div class="fig"><span class="tag">New</span><img src="img/shot-events.jpg" alt="Event manager with wiki detail view"></div>
-  </div>
-
-  <div class="feature reveal">
-    <div class="txt">
-      <h3><span class="ic"><svg viewBox="0 0 24 24"><path d="M3 6l6-3 6 3 6-3v15l-6 3-6-3-6 3zM9 3v15M15 6v15"/></svg></span>Navigation &amp; routes on request</h3>
-      <p>“Show me the hero-point route”, “Mark all points of interest”, “Show the farming routes” — objectives appear as a glowing 3D trail in the world and on the map, with legend and categories.</p>
+      <h3><span class="ic"><svg viewBox="0 0 24 24"><path d="M3 6l6-3 6 3 6-3v15l-6 3-6-3-6 3zM9 3v15M15 6v15"/></svg></span>Navigation &amp; routes</h3>
+      <p>Show objectives via the legend or by command. They appear as a glowing 3D trail in the world and in color on the map, sorted by category.</p>
       <ul>
         <li>3D trail in the world and colored routes on the map</li>
         <li>Categories: map completion, fishing, bounties, meta events …</li>
@@ -251,7 +238,7 @@ footer .meta .g{color:var(--gold)}
     <div class="fig"><span class="tag">Map</span><img src="img/world-route.jpg" alt="3D route in the game world"></div>
   </div>
 
-  <div class="feature flip reveal">
+  <div class="feature reveal">
     <div class="txt">
       <h3><span class="ic"><svg viewBox="0 0 24 24"><path d="M4 4h16v12H4zM8 20h8M9 16v4M15 16v4M8 8h4M8 11h8"/></svg></span>Build manager with MetaBattle</h3>
       <p>Save your builds, browse public MetaBattle builds and apply build codes with a click. Copied codes are detected automatically from your clipboard.</p>
@@ -262,6 +249,19 @@ footer .meta .g{color:var(--gold)}
       </ul>
     </div>
     <div class="fig"><span class="tag">Builds</span><img src="img/shot-build.jpg" alt="Build manager"></div>
+  </div>
+
+  <div class="feature flip reveal">
+    <div class="txt">
+      <h3><span class="ic"><svg viewBox="0 0 24 24"><path d="M12 3a4 4 0 0 0-4 4v4a4 4 0 0 0 8 0V7a4 4 0 0 0-4-4zM6 11a6 6 0 0 0 12 0M12 17v4"/></svg></span>Optional: ask by voice or text</h3>
+      <p>If you like, you can also ask the module questions, by push-to-talk or quietly via the text box. It uses a free Gemini key for that. Without a key, every other feature keeps working as normal.</p>
+      <ul>
+        <li>Push-to-talk key or a quiet text box, whichever you prefer</li>
+        <li>Answers read aloud with a natural voice, if you like</li>
+        <li>Optional: needs a free Gemini key</li>
+      </ul>
+    </div>
+    <div class="fig"><span class="tag">Optional</span><img src="img/shot-hero.jpg" alt="Question-and-answer window"></div>
   </div>
 </div></section>
 
@@ -274,11 +274,11 @@ footer .meta .g{color:var(--gold)}
     <div class="cap reveal"><div class="ci"><svg viewBox="0 0 24 24"><path d="M3 7l9-4 9 4-9 4zM3 7v10l9 4 9-4V7M12 11v10"/></svg></div>
       <h4>Record your own routes</h4><p>Hit REC, walk the route, save — including waypoints by hotkey. Stays permanently in the “My routes” category.</p></div>
     <div class="cap reveal"><div class="ci"><svg viewBox="0 0 24 24"><path d="M4 6h16v13H4zM4 10h16M8 3v4M16 3v4"/></svg></div>
-      <h4>Marker editor &amp; packs</h4><p>Download Tekkit and Lady Elyssa packs directly — translated on download. Create and color your own markers.</p></div>
+      <h4>Marker editor &amp; packs</h4><p>Download Tekkit and Lady Elyssa packs directly, with German names from the glossary. Create and color your own markers.</p></div>
     <div class="cap reveal"><div class="ci"><svg viewBox="0 0 24 24"><path d="M12 2v20M6 6h9a3 3 0 0 1 0 6H6M6 12h11a3 3 0 0 1 0 6H6"/></svg></div>
-      <h4>Account knowledge</h4><p>Wallet, inventory search across bank, material storage and bags, most valuable items — just ask, get an answer.</p></div>
+      <h4>Account info</h4><p>Wallet, inventory search across bank, material storage and bags, most valuable items, quickly looked up.</p></div>
     <div class="cap reveal"><div class="ci"><svg viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></svg></div>
-      <h4>Inventory clean-up advisor</h4><p>“Clean up my inventory” — suggestions to sell, store and salvage, including salvage-kit advice.</p></div>
+      <h4>Inventory clean-up help</h4><p>Suggestions to sell, store and salvage, including salvage-kit advice.</p></div>
     <div class="cap reveal"><div class="ci"><svg viewBox="0 0 24 24"><path d="M12 3a4 4 0 0 0-4 4v4a4 4 0 0 0 8 0V7a4 4 0 0 0-4-4zM6 11a6 6 0 0 0 12 0"/></svg></div>
       <h4>Control it your way</h4><p>Push-to-talk key or on-screen button, a text box for quiet questions, a corner icon in the bar — drag buttons anywhere with SHIFT.</p></div>
     <div class="cap reveal"><div class="ci"><svg viewBox="0 0 24 24"><path d="M5 4h14v16H5zM9 8h6M9 12h6M9 16h4"/></svg></div>
@@ -293,7 +293,7 @@ footer .meta .g{color:var(--gold)}
     <p class="sec-intro">Everything happens right in the game — here are a few real views.</p>
   </div>
   <div class="gal">
-    <figure class="c7 reveal"><img src="img/shot-events.jpg" alt="Event manager with wiki detail"><figcaption>Event manager: timers on the left, the full event wiki page on the right.</figcaption></figure>
+    <figure class="c7 reveal"><img src="img/shot-events.jpg" alt="Event manager with detail view"><figcaption>Event manager: timers on the left, event details on the right.</figcaption></figure>
     <figure class="c5 reveal"><img src="img/shot-map-events.jpg" alt="World bosses as markers on the map"><figcaption>World bosses &amp; meta events as markers on the full map.</figcaption></figure>
     <figure class="c5 reveal"><img src="img/shot-settings.jpg" alt="Settings"><figcaption>Settings: models, voice, buttons, push-to-talk.</figcaption></figure>
     <figure class="c7 reveal"><img src="img/shot-build.jpg" alt="Build manager"><figcaption>Build manager with skills and trait trees.</figcaption></figure>
@@ -308,13 +308,13 @@ footer .meta .g{color:var(--gold)}
   <div class="reveal">
     <div class="eyebrow">Ready in two minutes</div>
     <h2 class="sec-title">Setup</h2>
-    <p class="sec-intro">Install the module, enter a Gemini key, start asking. That's all it takes.</p>
+    <p class="sec-intro">Install the module and open it, done. The optional question feature just needs a free Gemini key.</p>
   </div>
   <div class="steps">
     <div class="step reveal"><h4>Blish HUD</h4><p>Install the overlay <a href="https://blishhud.com">blishhud.com</a> and start it once. It runs alongside the game.</p></div>
     <div class="step reveal"><h4>Drop in the module</h4><p>Copy <a href="GW2Assistant.bhm" download><code>GW2Assistant.bhm</code></a> into the <code>addons/blishhud/modules</code> folder and enable it in Blish.</p></div>
-    <div class="step reveal"><h4>Gemini key</h4><p>Grab a free one at <a href="https://aistudio.google.com/apikey">aistudio.google.com</a> and enter it in the settings.</p></div>
-    <div class="step reveal"><h4>Start asking</h4><p>Hold the push-to-talk key, speak, let go. Optionally add your GW2 API key for account questions.</p></div>
+    <div class="step reveal"><h4>Optional: Gemini key</h4><p>Only for the question feature: grab a free one at <a href="https://aistudio.google.com/apikey">aistudio.google.com</a> and enter it.</p></div>
+    <div class="step reveal"><h4>Get going</h4><p>Open the windows and explore the features. For account info, optionally add your GW2 API key.</p></div>
   </div>
   <p class="setnote">Recommended model for the highest free limit: <b>gemini-3.1-flash-lite</b>.</p>
 </div></section>
@@ -325,21 +325,21 @@ footer .meta .g{color:var(--gold)}
     <h2 class="sec-title">Tips &amp; thanks</h2>
   </div>
   <div class="tips">
-    <div class="tip reveal"><b>Multiple keys</b>With several Google accounts, just add more keys — the module switches automatically at the daily limit.</div>
-    <div class="tip reveal"><b>Works offline</b>Glossary, MetaBattle cache and map data live locally — much of it works without a connection.</div>
+    <div class="tip reveal"><b>Set reminders</b>Tap the bell next to an event and the module lets you know in good time before it starts.</div>
+    <div class="tip reveal"><b>Works offline</b>Glossary, MetaBattle cache and map data live locally, much of it works without a connection.</div>
     <div class="tip reveal"><b>Fully adjustable</b>Every window is movable and resizable, every button placeable with SHIFT-drag.</div>
   </div>
   <div class="credits reveal">
-    <p>The assistant can download marker packs directly and translate them into German on download. The bundled translation is based entirely on the wonderful work of
+    <p>The assistant can download these marker packs directly and shows the names in German, using a bundled glossary. The glossary is based entirely on the wonderful work of
     <a href="https://www.tekkitsworkshop.net/">Tekkit's Workshop</a> (All-In-One Marker Pack) and
     <a href="https://github.com/LadyElyssa">Lady Elyssa</a> (guides plus Achievements &amp; Collections).
-    The translation only changes the German display names — all routes, markers and icons come unchanged from their packs. <b style="color:var(--gold);font-family:Cinzel">Thank you!</b></p>
+    Only the German display names come from the glossary, all routes, markers and icons come unchanged from their packs. <b style="color:var(--gold);font-family:Cinzel">Thank you!</b></p>
   </div>
 </div></section>
 
 <footer><div class="wrap">
   <div class="brand"><img src="img/logo.png" alt=""> GW2&nbsp;<b>Assistant</b></div>
-  <p class="meta">A Blish HUD module for Guild Wars 2 · by <span class="g">Moisschen.9345</span> · Discord: Moisschen · <a href="changelog-en.html" style="color:var(--gold)">Changelog</a></p>
+  <p class="meta">A Blish HUD module for Guild Wars 2 · by <span class="g">Moisschen</span> · Discord: Moisschen · <a href="changelog-en.html" style="color:var(--gold)">Changelog</a></p>
   <p class="meta"><img src="https://img.shields.io/github/downloads/Moisschen/gw2-assistant-site/total?label=Downloads&amp;color=2ea043&amp;style=flat" alt="Downloads" style="vertical-align:middle;height:20px"></p>
 </div></footer>
 

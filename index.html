@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>GW2 Assistant — dein KI-Begleiter für Guild Wars 2</title>
-<meta name="description" content="Blish-HUD-Modul für Guild Wars 2: Fragen per Sprache oder Text, Antworten aus dem Wiki auf Deutsch, Event- & Weltboss-Timer, Navigation, Builds und Konto-Wissen — direkt im Overlay.">
+<title>GW2 Assistant · Overlay-Begleiter für Guild Wars 2</title>
+<meta name="description" content="Blish-HUD-Modul für Guild Wars 2: Event- und Weltboss-Timer, Navigation und Routen, Build-Verwaltung, Marker-Packs und Konto-Infos in einem Overlay. Mit optionaler Frage-Funktion.">
 <link rel="icon" href="img/logo.png" type="image/png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -187,61 +187,48 @@ footer .meta .g{color:var(--gold)}
 
 <header class="hero"><div class="wrap">
   <div class="reveal">
-    <span class="kicker"><span class="dot"></span> Blish-HUD-Modul · Deutsch · KI-gestützt</span>
-    <h1>Dein <span class="g">KI-Begleiter</span><br>mitten in Tyria.</h1>
-    <p class="lead">Taste halten, Frage sprechen, loslassen — die Antwort kommt auf Deutsch, vorgelesen, direkt im Overlay. Kein Alt-Tab, kein Wiki-Wälzen.</p>
-    <p class="sub">Aus dem Sprachassistenten ist ein vollwertiger Begleiter geworden: Wissen, Event-Timer, Navigation, Builds und Konto-Analyse — alles in einem Modul.</p>
+    <span class="kicker"><span class="dot"></span> Blish-HUD-Modul · Deutsch</span>
+    <h1>Dein <span class="g">Begleiter</span><br>für Tyria.</h1>
+    <p class="lead">Event-Timer, Navigation, Routen, Builds und Marker-Packs in einem einzigen Blish-Overlay. Dazu eine optionale Frage-Funktion, wenn du mal schnell etwas nachschlagen willst.</p>
+    <p class="sub">Ein Modul statt vieler: Timer, Karte, Builds, Marker und Konto-Infos, direkt im Spiel und auf Deutsch.</p>
     <div class="badges">
       <span class="badge"><svg viewBox="0 0 24 24"><path d="M12 3v18M5 8l7-5 7 5"/></svg> Läuft in Blish HUD</span>
-      <span class="badge"><svg viewBox="0 0 24 24"><path d="M4 12a8 8 0 1 0 16 0 8 8 0 0 0-16 0zM12 8v4l3 2"/></svg> Antworten in Sekunden</span>
-      <span class="badge"><svg viewBox="0 0 24 24"><path d="M3 12h18M12 3v18"/></svg> Kostenlos mit Gemini</span>
+      <span class="badge"><svg viewBox="0 0 24 24"><path d="M4 12a8 8 0 1 0 16 0 8 8 0 0 0-16 0zM12 8v4l3 2"/></svg> Viele Tools in einem</span>
+      <span class="badge"><svg viewBox="0 0 24 24"><path d="M3 12h18M12 3v18"/></svg> Komplett kostenlos</span>
     </div>
     <a class="dl-btn" href="https://github.com/Moisschen/gw2-assistant-site/releases/latest/download/GW2Assistant.bhm">⬇ Modul herunterladen <span class="v"><span class="vn">.bhm · v0.9.337</span><span class="vd">26.07.2026</span></span></a>
     <div class="dl-note">Braucht <a href="https://blishhud.com" style="color:var(--frost)">Blish HUD</a> · Einrichtung unten in 4 Schritten. · <a href="changelog.html" style="color:var(--gold)">Änderungen ansehen</a></div>
   </div>
   <div class="heroshot reveal">
-    <span class="hero-cap">„Wann startet Tequatl?" — beantwortet im Spiel, auf Deutsch, vorgelesen.</span>
-    <img src="img/shot-hero.jpg" alt="GW2 Assistant beantwortet eine Frage im Spiel">
+    <span class="hero-cap">Event-Timer, Navigation, Builds und mehr, direkt im Overlay.</span>
+    <img src="img/shot-events.jpg" alt="GW2 Assistant Event-Übersicht im Spiel">
   </div>
 </div></header>
 
 <section id="features"><div class="wrap">
   <div class="reveal">
-    <div class="eyebrow">Was der Assistent kann</div>
+    <div class="eyebrow">Was das Modul kann</div>
     <h2 class="sec-title">Ein Modul für alles, was du sonst per Alt-Tab suchst</h2>
-    <p class="sec-intro">Frag in natürlicher Sprache — der Assistent recherchiert live im GW2-Wiki, in der offiziellen API und auf MetaBattle und antwortet auf Deutsch.</p>
+    <p class="sec-intro">Timer, Navigation, Builds, Marker-Packs und Konto-Infos in einem Overlay. Das meiste läuft lokal oder über die offizielle GW2-API. Dazu kommt eine optionale Frage-Funktion.</p>
   </div>
 
   <div class="feature reveal">
     <div class="txt">
-      <h3><span class="ic"><svg viewBox="0 0 24 24"><path d="M12 3a4 4 0 0 0-4 4v4a4 4 0 0 0 8 0V7a4 4 0 0 0-4-4zM6 11a6 6 0 0 0 12 0M12 17v4"/></svg></span>Fragen per Sprache oder Text</h3>
-      <p>„Wo finde ich Miyani?", „Was brauche ich für ein Geschenk des Glücks?", „Was ist mein teuerster Gegenstand?" — halte die Push-to-Talk-Taste, sprich, und lies die Antwort im Overlay. Oder tippe still in die Textbox.</p>
+      <h3><span class="ic"><svg viewBox="0 0 24 24"><path d="M12 6v6l4 2M4 12a8 8 0 1 0 16 0 8 8 0 0 0-16 0z"/></svg></span>Event- &amp; Weltboss-Timer</h3>
+      <p>Ein großes Verwaltungsfenster zeigt, was <em>gerade läuft</em> und was <em>demnächst</em> ansteht, mit Countdown, Ort und Glocken-Erinnerung je Zeile. Das Detailpanel fasst Ziele, Belohnungen und Ablauf zum Event zusammen.</p>
       <ul>
-        <li>Live-Recherche im Wiki, der GW2-API und auf MetaBattle</li>
-        <li>Antwort auf Deutsch, wahlweise mit natürlicher Stimme vorgelesen</li>
-        <li>Build-Codes landen direkt in der Zwischenablage</li>
+        <li>Meta-Events und Weltbosse in einem Fenster, live sortiert</li>
+        <li>Erinnerungsglocke je Event, überall synchron</li>
+        <li>Detailansicht mit Zielen, Belohnungen und Ablauf</li>
       </ul>
     </div>
-    <div class="fig"><span class="tag">Live</span><img src="img/shot-hero.jpg" alt="Frage-Antwort-Fenster"></div>
+    <div class="fig"><span class="tag">Timer</span><img src="img/shot-events.jpg" alt="Event-Verwaltung mit Detailansicht"></div>
   </div>
 
   <div class="feature flip reveal">
     <div class="txt">
-      <h3><span class="ic"><svg viewBox="0 0 24 24"><path d="M12 6v6l4 2M4 12a8 8 0 1 0 16 0 8 8 0 0 0-16 0z"/></svg></span>Event- &amp; Weltboss-Timer mit Wiki 1:1</h3>
-      <p>Ein großes Verwaltungsfenster zeigt, was <em>gerade läuft</em> und was <em>demnächst</em> ansteht — mit Countdown, Ort und Glocken-Erinnerung je Zeile. Das Detailpanel spiegelt die komplette Event-Wikiseite: Ziele, Belohnungen und Walkthrough — vollständig auf Deutsch.</p>
-      <ul>
-        <li>Meta-Events und Weltbosse in einem Fenster, live sortiert</li>
-        <li>Erinnerungsglocke je Event, überall synchron</li>
-        <li>1:1-Wikiansicht mit klickbaren Links, auf Deutsch übersetzt</li>
-      </ul>
-    </div>
-    <div class="fig"><span class="tag">Neu</span><img src="img/shot-events.jpg" alt="Event-Verwaltung mit Wiki-Detailansicht"></div>
-  </div>
-
-  <div class="feature reveal">
-    <div class="txt">
-      <h3><span class="ic"><svg viewBox="0 0 24 24"><path d="M3 6l6-3 6 3 6-3v15l-6 3-6-3-6 3zM9 3v15M15 6v15"/></svg></span>Navigation &amp; Routen auf Zuruf</h3>
-      <p>„Zeig mir die Heldenpunkt-Route", „Markiere alle Sehenswürdigkeiten", „Blende die Farming-Routen ein" — Ziele erscheinen als leuchtendes 3D-Band in der Welt und auf der Karte, mit Legende und Kategorien.</p>
+      <h3><span class="ic"><svg viewBox="0 0 24 24"><path d="M3 6l6-3 6 3 6-3v15l-6 3-6-3-6 3zM9 3v15M15 6v15"/></svg></span>Navigation &amp; Routen</h3>
+      <p>Blende Ziele über die Legende oder per Befehl ein. Sie erscheinen als leuchtendes 3D-Band in der Welt und farbig auf der Karte, sortiert nach Kategorien.</p>
       <ul>
         <li>3D-Routenband in der Welt und farbige Routen auf der Karte</li>
         <li>Kategorien: Kartenabschluss, Angeln, Kopfgelder, Meta-Events …</li>
@@ -251,10 +238,10 @@ footer .meta .g{color:var(--gold)}
     <div class="fig"><span class="tag">Karte</span><img src="img/world-route.jpg" alt="3D-Route in der Spielwelt"></div>
   </div>
 
-  <div class="feature flip reveal">
+  <div class="feature reveal">
     <div class="txt">
       <h3><span class="ic"><svg viewBox="0 0 24 24"><path d="M4 4h16v12H4zM8 20h8M9 16v4M15 16v4M8 8h4M8 11h8"/></svg></span>Build-Verwaltung mit MetaBattle</h3>
-      <p>Speichere deine Builds, durchsuche öffentliche MetaBattle-Builds und übernimm Build-Codes mit einem Klick. Kopierte Codes erkennt der Assistent automatisch aus der Zwischenablage.</p>
+      <p>Speichere deine Builds, durchsuche öffentliche MetaBattle-Builds und übernimm Build-Codes mit einem Klick. Kopierte Codes werden automatisch aus der Zwischenablage erkannt.</p>
       <ul>
         <li>Eigene und öffentliche Builds durchsuchen und speichern</li>
         <li>Skills, Spezialisierungen und Trait-Bäume auf einen Blick</li>
@@ -262,6 +249,19 @@ footer .meta .g{color:var(--gold)}
       </ul>
     </div>
     <div class="fig"><span class="tag">Builds</span><img src="img/shot-build.jpg" alt="Build-Verwaltung"></div>
+  </div>
+
+  <div class="feature flip reveal">
+    <div class="txt">
+      <h3><span class="ic"><svg viewBox="0 0 24 24"><path d="M12 3a4 4 0 0 0-4 4v4a4 4 0 0 0 8 0V7a4 4 0 0 0-4-4zM6 11a6 6 0 0 0 12 0M12 17v4"/></svg></span>Optional: Fragen per Sprache oder Text</h3>
+      <p>Wenn du magst, kannst du dem Modul auch Fragen stellen, per Push-to-Talk oder still über die Textbox. Dafür nutzt es einen kostenlosen Gemini-Key. Ohne Key laufen alle anderen Funktionen ganz normal weiter.</p>
+      <ul>
+        <li>Push-to-Talk-Taste oder stille Textbox, ganz wie du willst</li>
+        <li>Antwort auf Deutsch, wahlweise mit natürlicher Stimme vorgelesen</li>
+        <li>Optional: braucht einen kostenlosen Gemini-Key</li>
+      </ul>
+    </div>
+    <div class="fig"><span class="tag">Optional</span><img src="img/shot-hero.jpg" alt="Frage-Antwort-Fenster"></div>
   </div>
 </div></section>
 
@@ -274,11 +274,11 @@ footer .meta .g{color:var(--gold)}
     <div class="cap reveal"><div class="ci"><svg viewBox="0 0 24 24"><path d="M3 7l9-4 9 4-9 4zM3 7v10l9 4 9-4V7M12 11v10"/></svg></div>
       <h4>Eigene Routen aufnehmen</h4><p>REC drücken, Route ablaufen, speichern — inklusive Wegmarken per Hotkey. Bleibt dauerhaft in der Kategorie „Eigene Routen".</p></div>
     <div class="cap reveal"><div class="ci"><svg viewBox="0 0 24 24"><path d="M4 6h16v13H4zM4 10h16M8 3v4M16 3v4"/></svg></div>
-      <h4>Marker-Editor &amp; Packs</h4><p>Tekkit- und Lady-Elyssa-Packs direkt herunterladen — beim Download automatisch ins Deutsche übersetzt. Eigene Marker anlegen und einfärben.</p></div>
+      <h4>Marker-Editor &amp; Packs</h4><p>Tekkit- und Lady-Elyssa-Packs direkt herunterladen, mit deutschen Namen aus dem Glossar. Eigene Marker anlegen und einfärben.</p></div>
     <div class="cap reveal"><div class="ci"><svg viewBox="0 0 24 24"><path d="M12 2v20M6 6h9a3 3 0 0 1 0 6H6M6 12h11a3 3 0 0 1 0 6H6"/></svg></div>
-      <h4>Konto-Wissen</h4><p>Geldbörse, Inventar-Suche über Bank, Materiallager und Taschen, wertvollste Gegenstände — direkt gefragt, direkt beantwortet.</p></div>
+      <h4>Konto-Infos</h4><p>Geldbörse, Inventar-Suche über Bank, Materiallager und Taschen, wertvollste Gegenstände, schnell abgefragt.</p></div>
     <div class="cap reveal"><div class="ci"><svg viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></svg></div>
-      <h4>Inventar-Aufräum-Berater</h4><p>„Räum mein Inventar auf" — Vorschläge zum Verkaufen, Einlagern und Zerlegen samt Kit-Empfehlung.</p></div>
+      <h4>Inventar-Aufräum-Hilfe</h4><p>Vorschläge zum Verkaufen, Einlagern und Zerlegen samt Kit-Empfehlung.</p></div>
     <div class="cap reveal"><div class="ci"><svg viewBox="0 0 24 24"><path d="M12 3a4 4 0 0 0-4 4v4a4 4 0 0 0 8 0V7a4 4 0 0 0-4-4zM6 11a6 6 0 0 0 12 0"/></svg></div>
       <h4>Bedienung, wie du willst</h4><p>Push-to-Talk-Taste oder Bildschirm-Button, Textbox für stilles Fragen, Corner-Icon in der Leiste — Buttons per SHIFT+Ziehen frei platzieren.</p></div>
     <div class="cap reveal"><div class="ci"><svg viewBox="0 0 24 24"><path d="M5 4h14v16H5zM9 8h6M9 12h6M9 16h4"/></svg></div>
@@ -293,7 +293,7 @@ footer .meta .g{color:var(--gold)}
     <p class="sec-intro">Alles passiert direkt im Spiel — hier ein paar echte Ansichten.</p>
   </div>
   <div class="gal">
-    <figure class="c7 reveal"><img src="img/shot-events.jpg" alt="Event-Verwaltung mit Wiki-Detail"><figcaption>Event-Verwaltung: Timer links, komplette Event-Wikiseite rechts — auf Deutsch.</figcaption></figure>
+    <figure class="c7 reveal"><img src="img/shot-events.jpg" alt="Event-Verwaltung mit Detailansicht"><figcaption>Event-Verwaltung: Timer links, Event-Details rechts.</figcaption></figure>
     <figure class="c5 reveal"><img src="img/shot-map-events.jpg" alt="Weltbosse als Marker auf der Karte"><figcaption>Weltbosse &amp; Meta-Events als Marker auf der großen Karte.</figcaption></figure>
     <figure class="c5 reveal"><img src="img/shot-settings.jpg" alt="Einstellungen"><figcaption>Einstellungen: Modelle, Stimme, Buttons, Push-to-Talk.</figcaption></figure>
     <figure class="c7 reveal"><img src="img/shot-build.jpg" alt="Build-Verwaltung"><figcaption>Build-Verwaltung mit Skills und Trait-Bäumen.</figcaption></figure>
@@ -308,13 +308,13 @@ footer .meta .g{color:var(--gold)}
   <div class="reveal">
     <div class="eyebrow">In zwei Minuten startklar</div>
     <h2 class="sec-title">Einrichtung</h2>
-    <p class="sec-intro">Modul installieren, Gemini-Key eintragen, losfragen. Mehr braucht es nicht.</p>
+    <p class="sec-intro">Modul installieren und öffnen, fertig. Für die optionale Frage-Funktion zusätzlich einen kostenlosen Gemini-Key.</p>
   </div>
   <div class="steps">
     <div class="step reveal"><h4>Blish HUD</h4><p>Das Overlay <a href="https://blishhud.com">blishhud.com</a> installieren und einmal starten. Läuft parallel zum Spiel.</p></div>
     <div class="step reveal"><h4>Modul einlegen</h4><p>Die Datei <a href="GW2Assistant.bhm" download><code>GW2Assistant.bhm</code></a> in den Ordner <code>addons/blishhud/modules</code> kopieren und in Blish aktivieren.</p></div>
-    <div class="step reveal"><h4>Gemini-Key</h4><p>Kostenlos bei <a href="https://aistudio.google.com/apikey">aistudio.google.com</a> holen und in den Einstellungen eintragen.</p></div>
-    <div class="step reveal"><h4>Losfragen</h4><p>Push-to-Talk-Taste halten, Frage sprechen, loslassen. Optional den GW2-API-Key für Konto-Fragen freigeben.</p></div>
+    <div class="step reveal"><h4>Optional: Gemini-Key</h4><p>Nur für die Frage-Funktion: kostenlos bei <a href="https://aistudio.google.com/apikey">aistudio.google.com</a> holen und eintragen.</p></div>
+    <div class="step reveal"><h4>Loslegen</h4><p>Fenster öffnen und Funktionen erkunden. Für Konto-Infos optional den GW2-API-Key freigeben.</p></div>
   </div>
   <p class="setnote">Empfohlenes Modell für das höchste Gratis-Limit: <b>gemini-3.1-flash-lite</b>.</p>
 </div></section>
@@ -325,21 +325,21 @@ footer .meta .g{color:var(--gold)}
     <h2 class="sec-title">Tipps &amp; Dank</h2>
   </div>
   <div class="tips">
-    <div class="tip reveal"><b>Mehrere Keys</b>Bei mehreren Google-Konten einfach weitere Keys hinterlegen — das Modul wechselt am Tageslimit automatisch.</div>
-    <div class="tip reveal"><b>Offline nutzbar</b>Glossar, MetaBattle-Cache und Kartendaten liegen lokal — vieles funktioniert auch ohne Verbindung.</div>
+    <div class="tip reveal"><b>Erinnerungen setzen</b>Die Glocke neben einem Event antippen, und das Modul meldet sich rechtzeitig vor dem Start.</div>
+    <div class="tip reveal"><b>Offline nutzbar</b>Glossar, MetaBattle-Cache und Kartendaten liegen lokal, vieles funktioniert auch ohne Verbindung.</div>
     <div class="tip reveal"><b>Frei anpassbar</b>Jedes Fenster ist verschieb- und skalierbar, jeder Button per SHIFT+Ziehen platzierbar.</div>
   </div>
   <div class="credits reveal">
-    <p>Der Assistent kann Marker-Packs direkt herunterladen und beim Download ins Deutsche übersetzen. Die mitgelieferte Übersetzung basiert vollständig auf der großartigen Arbeit von
+    <p>Der Assistent kann diese Marker-Packs direkt herunterladen und zeigt die Namen auf Deutsch, anhand eines mitgelieferten Glossars. Das Glossar basiert vollständig auf der großartigen Arbeit von
     <a href="https://www.tekkitsworkshop.net/">Tekkit's Workshop</a> (All-In-One Marker Pack) und
     <a href="https://github.com/LadyElyssa">Lady Elyssa</a> (Guides sowie Achievements &amp; Collections).
-    Die Übersetzung ändert ausschließlich die deutschen Anzeigenamen — alle Routen, Marker und Icons stammen unverändert aus ihren Packs. <b style="color:var(--gold);font-family:Cinzel">Vielen Dank!</b></p>
+    Nur die deutschen Anzeigenamen kommen aus dem Glossar, alle Routen, Marker und Icons stammen unverändert aus ihren Packs. <b style="color:var(--gold);font-family:Cinzel">Vielen Dank!</b></p>
   </div>
 </div></section>
 
 <footer><div class="wrap">
   <div class="brand"><img src="img/logo.png" alt=""> GW2&nbsp;<b>Assistant</b></div>
-  <p class="meta">Ein Blish-HUD-Modul für Guild Wars 2 · verfasst von <span class="g">Moisschen.9345</span> · Discord: Moisschen · <a href="changelog.html" style="color:var(--gold)">Änderungen</a></p>
+  <p class="meta">Ein Blish-HUD-Modul für Guild Wars 2 · verfasst von <span class="g">Moisschen</span> · Discord: Moisschen · <a href="changelog.html" style="color:var(--gold)">Änderungen</a></p>
   <p class="meta"><img src="https://img.shields.io/github/downloads/Moisschen/gw2-assistant-site/total?label=Downloads&amp;color=2ea043&amp;style=flat" alt="Downloads" style="vertical-align:middle;height:20px"></p>
 </div></footer>
 
